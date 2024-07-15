@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Kode Mono", monospace;
+  background-color: #f8dfa4;
+  color: #090a15;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: heavy;
+  font-weight: bold;
+}
+h1 {
+  font-size: 6rem;
+}
+button {
+  cursor: pointer;
+}
+

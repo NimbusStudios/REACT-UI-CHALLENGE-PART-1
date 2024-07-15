@@ -1,0 +1,324 @@
+.dashboard {
+    flex: 1;
+    padding: 1px;
+    overflow-y: auto;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-header .status {
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 4rem;
+  }
+  .dashboard-header .uptime {
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  .dashboard-header .anomalies {
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 4rem;
+  }
+  .dashboard-header .risk-rating {
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 4rem;
+  }
+  
+  .dashboard-header .risk-rating span {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc33;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .dashboard-content {
+  
+    max-width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    padding: 4rem;
+    justify-content: center;
+    align-items: left;
+  }
+  
+  .dashboard-content > div {
+    max-height: 200px;
+    overflow-y: auto;
+    flex: 2 1 250px;
+    background-color: #c9ac56;
+    color: #252523;
+    padding: 5rem;
+    border-radius: 5px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-content > div:hover {
+    background-color: #fbd100;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .dashboard .total-consumers {
+    padding: 4rem;
+    border-radius: 5px;
+    background-color: #ddca61;
+    margin-bottom: 1rem;}
+
+  .dashboard .active-users {
+    padding: 4rem;
+    border-radius: 5px;
+    background-color: #ddca61;
+    margin-bottom: 1rem;}
+
+  .dashboard .users {
+    padding: 4rem;
+    border-radius: 5px;
+    background-color: #ddca61;
+    margin-bottom: 1rem;}
+
+  .dashboard .security-status {
+    padding: 4rem;
+    border-radius: 5px;
+    background-color: #ddca61;
+    margin-bottom: 1rem; }
+
+  .dashboard .healthy-sidecars {
+    padding: 4rem;
+    border-radius: 5px;
+    background-color: #ddca61;
+    margin-bottom: 1rem;
+  }
+  .dashboard .recent {
+    padding: 4rem;
+    border-radius: 5px;
+    background-color: #c9ac56;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard .security-status {
+    background-color: #fa9e1d;
+  }
+  
+  .dashboard .total-consumers h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .dashboard .active-users h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .dashboard .users h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .dashboard .security-status h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .dashboard .healthy-sidecars h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .dashboard .recent h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dashboard .total-consumers p {
+    align-content: baseline;
+    font-size: 7rem;
+  }
+  .dashboard .active-users p {
+    align-content: baseline;
+    font-size: 7rem;
+  }
+  .dashboard .users p {
+    align-content: baseline;
+    font-size: 7rem;
+  }
+  .dashboard .security-status p {
+    align-content: baseline;
+    font-size: 7rem;
+  }
+  .dashboard .healthy-sidecars p {
+    align-content: baseline;
+    font-size: 7rem;
+  }
+  .dashboard .recent p {
+    align-content: baseline;
+    font-size: 7rem;
+  }
+  
+  .dashboard .recent ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard .recent li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dashboard .recent li a {
+    color: #c3a63e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .dashboard .recent li a:hover {
+    color: #ff5722;
+  }
+
+  .healthy-sidecars {
+    background-color: #00ff00; /* Green color */
+  }
+  
+  .recent {
+    background-color: #ff0000; /* Red color */
+  }
+
+  .chart {
+    font-size: small;
+    position: relative;
+    width: 100%;
+      height: 150px;
+      background-color: #151515;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+      align-content: center;
+      padding-left: 4rem;
+  
+      
+    }
+    
+    .chart .bar {
+      position: absolute;
+      bottom: 0;
+      width: 4px;
+      background-color: #ffdd00;
+      transition: height 0.3s ease;
+      cursor: pointer;
+  padding: 4rem;
+    }
+    
+    .chart .bar:hover {
+      background-color: #f8db66;
+    }
+  
+   .bar-chart {
+    max-width: 100%;
+     font-size: small;
+     margin: 0; /* Remove any default margins */
+     padding: 0; /* Remove any default padding */
+   }
+   
+   .bar-chart svg {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 4rem auto; /* Center the SVG element horizontally */
+   }
+   
+   .bar-chart .bar {
+     fill: #f8db66;
+   }
+   
+   .bar-chart .bar.high {
+     fill: #f8db66;
+   }
+   .pie-chart {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width if needed */
+    margin: 0 auto;
+  }
+   
+   .pie-chart svg {
+     max-width: 100%; /* Set the maximum width of the SVG element to 100% */
+     height: auto; /* Allow the height to adjust automatically */
+   }
+   
+   .pie-chart .chart-content {
+    padding-right: 2rem;
+     max-width: 100%; /* Set the maximum width of the chart content to 100% */
+     overflow: hidden; /* Hide any content that overflows the container */
+   }
+   .pie-chart-container {
+    flex-basis: 33%;
+    
+  }
+  
+   .dashboard-card-content {
+    display: flex;
+    justify-content: space-between; /* Put elements at the beginning and end of the container */
+    align-items: center; /* Center items vertically */
+    
+  }
+   .dashboard-card-content h5 {
+    flex-basis: 50%;
+    margin: 5px 0; /* Add margin between each text element */
+  }
+
+  .dashboard-card-content-text {
+    align-content: baseline;
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .dashboard-card-content p {
+    flex-basis: 33%;
+    margin: 5px 0; /* Add margin between each text element */
+      align-content: bottom;
+  }
+  
+  .pie-chart-container {
+    
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    flex-basis: 50%; /* Take up 50% of the container width for the pie chart */
+  }
+  .dashboard-card {
+    position: relative;
+    /* Add any other existing styles for the dashboard card */
+  }
+  
+  .arrow-glyph {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    width: 20px; /* Adjust the width of the arrow glyph */
+    height: 20px; /* Adjust the height of the arrow glyph */
+    background: url('path_to_arrow_image.png') no-repeat; /* Use an arrow image or icon */
+    /* Add any other styles for the arrow glyph */
+  }
+  

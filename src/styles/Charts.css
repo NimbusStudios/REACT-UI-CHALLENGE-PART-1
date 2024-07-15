@@ -1,0 +1,56 @@
+
+.chart {
+  font-size: small;
+  position: relative;
+  width: 100%;
+    height: 150px;
+    background-color: #151515;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    align-content: center;
+    padding-left: 4rem;
+
+    
+  }
+  
+  .chart .bar {
+    position: absolute;
+    bottom: 0;
+    width: 4px;
+    background-color: #f8db66;
+    transition: height 0.3s ease;
+    cursor: pointer;
+padding: 4rem;
+  }
+  
+  .chart .bar:hover {
+    background-color: #f8db66;
+  }
+
+ .bar-chart {
+   font-size: small;
+   margin: 0; /* Remove any default margins */
+   padding: 0; /* Remove any default padding */
+ }
+ 
+ .bar-chart svg {
+   display: block;
+   margin: 4rem auto; /* Center the SVG element horizontally */
+ }
+ 
+ .bar-chart .bar {
+   fill: #f8db66;
+ }
+ 
+ .bar-chart .bar.high {
+   fill: #f1c619;
+ }
+ .pie-chart {
+  width: 50%; /* Set the width of the pie chart */
+  float: right; /* Right justify the pie chart */
+}
+
+.pie-chart svg {
+  display: block;
+  margin: 0 auto;
+}

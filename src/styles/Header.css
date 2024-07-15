@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #131315;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+  }
+  
+  .header .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .user-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 40px 40px;
+  }
+  
+  .header .generate-credential {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header .generate-credential:hover {
+    background-color: #e64a19;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #131315;
+    color: white;
+    
+    padding: 5px 40px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px 40px;
+
+  }
+  
+  .generate-credential {
+    margin-left: 10px;
+    padding: 5px 40px;
+    background-color: #ff8c00;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .generate-credential:hover {
+    background-color: #ff7000;
+  }
+  

@@ -1,0 +1,74 @@
+/**
+ * Styles for the App component
+ *
+ * The App component is the main container for the
+ * application. It contains the header, sidebar, and
+ * main content area.
+ */
+.app {
+  /**
+   * The app container should fill the entire height
+   * of the viewport.
+   */
+  display: flex;
+  /**
+   * The app container should be laid out vertically.
+   */
+  flex-direction: column;
+  /**
+   * The app container should fill the entire height
+   * of the viewport.
+   */
+  height: 100vh;
+  /**
+   * The app container should have a light gray background.
+   */
+  background-color: #1a1a1a; 
+  /**
+   * The app container should have a padding of 20px on all sides.
+   */ 
+   padding: 20px;
+   /**
+   * The app container should have a border-radius of 10px.
+   */
+   border-radius: 50px; 
+   /**
+   * The app container should have a border of 1px solid #ccc.
+   */
+   border: 1px solid #ccc;   
+   /**
+   * The app container should have a margin-bottom of 20px.
+   */
+   margin-bottom: 20px;
+   /**
+   * The app container should have a box-shadow of 0px 2px 4px rgba(0, 0, 0, 0.1).
+   *
+   * box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+   *
+
+   /**
+   * The app container should have a box-shadow of 0px 2px 4px rgba(0, 0, 0, 0.1).
+   */
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+   /**
+   * The app container should have a margin-bottom of 20px.
+   */
+}
+
+.main {
+  
+  border-radius: 50px;
+  /**
+   * The main content area should take up the majority
+   * of the space in the app container.
+   */
+  display: flex;
+  /**
+   * The main content area should take up the majority
+   * of the space in the app container.
+   */
+  flex-grow: 1;
+  max-height: 100%;
+  max-width: 100%;
+}
+
