@@ -1,70 +1,48 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Topic: React JS
+Submission Date: 15 July 2023
+Time: 12:00 pm
+ 
+Please submit by pushing to your github repository and sharing the link on Slack with your mentor.
+ 
+Title: React UI Challenge
+ 
+Objective
+The objective of this task is to assess your understanding of React.js concepts and your ability to design and implement user interfaces (UI) using React components. In this challenge, you will be creating your own UI component from scratch, demonstrating your knowledge of React best practices, component structure, and reusability.
+ 
+This is the official first task of the curriculum, based on React Lesson 2, focusing mainly on design implementation, styling and screen responsiveness.
+ 
+Choose one of the designs in the folder and implement the UI exactly as it is.
+ 
+Instructions:
+● Download one of the files at the above link.
+● Using ReactJS, create a front-end implementation of the UI design.
+● Pay close attention to the layout, colours, typography, and overall visual elements to ensure accurate replication.
+● You may use your own icons, images, and typography that closely resemble those used in the UI design.
+● Use appropriate ReactJS components and styling techniques to achieve the desired design.
+● Implement interactivity and responsiveness where applicable.
+● Test your implementation thoroughly to ensure proper functionality.
+● Bonus: host your work using Github pages or firebase as you have learnt during the bootcamp.
+ 
+Notes:
+● While replicating the design, focus on visual fidelity and user experience.
+● Use your creativity to find icons, images, typography and colors (color codes) that closely resemble those used in the UI design.
+● Apply your knowledge of ReactJS and front-end development best practices to accomplish the task.
+● Make use of reusable components wherever possible.
+● Feel free to use any additional libraries or tools that you are comfortable with.
+● Be attentive to details and strive for accuracy in your implementation.
+● Remember, the purpose of this task is to assess your ability to translate a design into a functional UI using ReactJS. If you have any questions or need clarification, please don't hesitate to reach out.
+ 
+Evaluation Criteria:
+● Accuracy of the design
+○ Was the design layout properly imitated
+○ Were the same colors maintained
+○ Were similar fonts to those in the design used
+○ Were all elements  imitated, is there an element on the design that’s missing on the implementation
+● Page interactivity
+○ Do links change color when hovered over
+○ Do buttons change color when hovered over
+● Utilisation of React.js features
+○ Did developer create own components
+○ Were developer-created components re-used for similar UI elements
+● Responsiveness of the page
+○ Is the page responsive to different web view sizes
