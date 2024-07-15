@@ -6,7 +6,9 @@
   
   .dashboard-header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction:  column;
+    align-items: center;
     margin-bottom: 1rem;
   }
   
@@ -64,7 +66,6 @@
   .dashboard-content {
   
     max-width: 1200px;
-    
     display: flex;
     flex-wrap: wrap;
     gap: 1px;
@@ -80,7 +81,7 @@
     background-color: #c9ac56;
     color: #252523;
     padding: 5rem;
-    border-radius: 5px;
+    
     text-align: left;
     transition: background-color 0.3s ease;
   }
@@ -255,7 +256,7 @@
    }
    
    .bar-chart .bar.high {
-     fill: #f8db66;
+     fill: #fa7725;
    }
    .pie-chart {
     width: 100%;
@@ -279,6 +280,12 @@
   }
   
    .dashboard-card-content {
+    display: flex;
+    justify-content: space-between; /* Put elements at the beginning and end of the container */
+    align-items: center; /* Center items vertically */
+    
+  }
+  .dashboard-card-content-bottom {
     display: flex;
     justify-content: space-between; /* Put elements at the beginning and end of the container */
     align-items: center; /* Center items vertically */

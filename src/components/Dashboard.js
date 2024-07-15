@@ -251,7 +251,7 @@ const Dashboard = () => (
     <div className="dashboard-header">
       <div className="chart-container">
         <h3>Events Last Hour</h3>
-        <BarChart width={1000} height={100} data={barChartData}>
+        <BarChart width={1200} height={100} data={barChartData}>
           <XAxis dataKey="name" />
           <Tooltip />
           <Bar dataKey="events" fill="#ff5722" />
@@ -307,6 +307,7 @@ const Dashboard = () => (
         <h3>Security Status</h3>
         <h1>3,949</h1>
       </div>
+      <div className="dashboard-card-bottom">
       <div className="dashboard-card">
       <div className="arrow-glyph"></div>
         <h3>Healthy Sidecars</h3>
@@ -317,6 +318,7 @@ const Dashboard = () => (
           <li><a href="#">DJANGO-RDS</a></li>
           <li><a href="#">DROPBOX-STAGING</a></li>
         </ul>
+      </div>
       </div>
     </div>
   </main>
